@@ -114,7 +114,7 @@ class IHungryBurger{
 							System.out.println("\n\tYour order is entered to the system successfully...");
 				
 							L4:do {
-								System.out.print("\nDo you want to place another? (Y/N)");
+								System.out.print("\nDo you want to place another? (Y/N) ");
 								char op2 = sc.next().charAt(0);
 				
 								if(op2=='Y' || op2=='y') {
@@ -129,7 +129,7 @@ class IHungryBurger{
 						} else if(op=='N' || op=='n') {
 							System.out.println("\tYour order is cancelled...");
 							L4:do {
-								System.out.print("\nDo you want to place another? (Y/N)");
+								System.out.print("\nDo you want to place another? (Y/N) ");
 								char op2 = sc.next().charAt(0);
 				
 								if(op2=='Y' || op2=='y') {
